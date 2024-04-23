@@ -15,34 +15,59 @@
             <li type="none" style="padding:20px;"><a href="contact.html">Contact</a></li>
         </ul>
     </nav>
-    <h3>Sign Up</h3>
-    <h6>Its free and always will be</h6>
+
+    <h1 style="text-align: center;">Sign up form</h1> <hr>
+    <form action="#" method="post">
+      <br>
+  <label for="name">Name:</label>
+    <input type="text" name="user" id="name" placeholder="Your Name"><br> <br>
+    <label for="email">Email:</label>
+    <input type="email" name="mail" id="email" placeholder="Your Email"><br> <br>
+  <label for="pass">Password:</label>
+  <input type="password" name="password" id="pass" placeholder="Your Password"> <br> <br>
+    <label for="tel">Phone: 
+      <select name="" id=""> country Code
+        <option value="usa">USA : +1</option>
+        <option  value="bd" >BD : +880</option>
+        <option value="pk">PK : +92</option>
+      </select>
+    </label>
+    <input type="tel" name="phn" id="tel"> <br> <br>
+    <label for="gnd">Gender :</label>
+    <input type="radio" name="sex" id="gnd">Male
+    <input type="radio" name="sex" id="gnd">Female
+    <input type="radio" name="sex" id="gnd">Others
+    <br> <br>
+    <label for="date">Date of birth:</label>
+    <input type="date" name="dateuser" id="date">
+    <br> <br>
+    <label for="time">Usual Submitted Time:</label>
+    <input type="time" name="tme" id="time">
+    <br> <br>
+    <label for="clr">Your favorite color:</label>
+    <input type="color" name="color" id="clr"> <input type="text" name="" id="">
+    <br> 
     <br>
-    <br>
-    <form action="">
-        <input type="text" placeholder="First name" name="" id=""><br><br>
-        <input type="text" placeholder="Sur name" name="" id=""><br><br>
-        <input type="email" placeholder="Mobile number or Email address" id=""><br><br>
-        <input type="email" placeholder="Re-enter Mobile number or Email address" id=""><br><br>
-        <input type="password" placeholder="New Password" id="">
-        <h6>Birthday</h6>
-       <input type="datetime-local" name="" id=""><br>
-       
-       <h6> Gender:</h6>
-        <select name=" " id="">
-       
-     <option value="Male">Male</option>
-            <option value="Femail">Femail</option><br><br>
-        </select>
-        <br><br><br>
-       <input type="submit" value="SignUp">
-    </form>
+    <label for="photo">Your Profile photo:</label>
+    <input type="file" name="" id="photo">
+    <br> <br>
+    <label for="">Chose one:</label>
+   <input type="radio" name="user" id=""> I have a bike 
+    <input type="radio" name="user" id=""> I have a car
+    <br> <br>
     
-    <br>
-    <br>
-    <p>Already have an account</p> <a href="login.html"><button>Login</button></a>
-    <footer>
-        
-    </footer>
-</body>
+    <label for="area"> </label> <h4>Your Comment :</h4>
+    <textarea name="text" id="area" cols="30" rows="10"></textarea>
+    <br> <br>
+    <label for="Send"></label>
+    <input type="submit" value="Send">
+    <label for="Refresh"></label>
+    <input type="reset" value="Refresh">
+    <br> <br> <br>
+    <p style="color: blue;">Already have an account</p>
+    <br> 
+    <button style="border-radius: 5px; background-color: blue;"><a href="contact.html">Login</a></button>
+   
+  </form>
+  </body>
 </html>
